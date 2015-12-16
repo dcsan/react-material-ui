@@ -1,6 +1,6 @@
 Package.describe({
-    name: 'izzilab:material-ui',
-    version: '0.2.3',
+    name: 'dcsan:material-ui',
+    version: '0.2.4',
     // Brief, one-line summary of the package.
     summary: 'Material-UI using official React package',
     // URL to the Git repository containing the source code for this package.
@@ -10,8 +10,10 @@ Package.describe({
     documentation: 'README.md'
 });
 
-var MUI_VERSION = '0.13.4';
+// var MUI_VERSION = '0.13.4';
+var MUI_VERSION = '0.14.0-rc2';
 var EXTERNALIFY_VERSION = "0.1.0";
+
 Npm.depends({
     'externalify': EXTERNALIFY_VERSION,
     'material-ui': MUI_VERSION,

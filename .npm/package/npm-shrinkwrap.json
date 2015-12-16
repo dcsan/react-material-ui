@@ -155,10 +155,10 @@
       }
     },
     "material-ui": {
-      "version": "0.13.3",
+      "version": "0.14.0-rc2",
       "dependencies": {
         "inline-style-prefixer": {
-          "version": "0.5.1",
+          "version": "0.5.4",
           "dependencies": {
             "bowser": {
               "version": "1.0.0"
@@ -170,7 +170,7 @@
                   "version": "1.0.1"
                 },
                 "caniuse-db": {
-                  "version": "1.0.30000366"
+                  "version": "1.0.30000377"
                 },
                 "lodash.memoize": {
                   "version": "2.4.1",
@@ -256,13 +256,15 @@
           }
         },
         "lodash.throttle": {
-          "version": "3.0.4"
-        },
-        "lodash.debounce": {
-          "version": "3.1.1",
+          "version": "3.0.4",
           "dependencies": {
-            "lodash._getnative": {
-              "version": "3.9.1"
+            "lodash.debounce": {
+              "version": "3.1.1",
+              "dependencies": {
+                "lodash._getnative": {
+                  "version": "3.9.1"
+                }
+              }
             }
           }
         },
@@ -286,92 +288,6 @@
               "dependencies": {
                 "js-tokens": {
                   "version": "1.0.2"
-                }
-              }
-            }
-          }
-        },
-        "history": {
-          "version": "1.13.1",
-          "dependencies": {
-            "deep-equal": {
-              "version": "1.0.1"
-            },
-            "invariant": {
-              "version": "2.1.2",
-              "dependencies": {
-                "loose-envify": {
-                  "version": "1.1.0",
-                  "dependencies": {
-                    "js-tokens": {
-                      "version": "1.0.2"
-                    }
-                  }
-                }
-              }
-            },
-            "qs": {
-              "version": "4.0.0"
-            }
-          }
-        },
-        "react": {
-          "version": "0.14.3",
-          "dependencies": {
-            "envify": {
-              "version": "3.4.0",
-              "dependencies": {
-                "through": {
-                  "version": "2.3.8"
-                },
-                "jstransform": {
-                  "version": "10.1.0",
-                  "dependencies": {
-                    "base62": {
-                      "version": "0.1.1"
-                    },
-                    "esprima-fb": {
-                      "version": "13001.1001.0-dev-harmony-fb"
-                    },
-                    "source-map": {
-                      "version": "0.1.31",
-                      "dependencies": {
-                        "amdefine": {
-                          "version": "1.0.0"
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "fbjs": {
-              "version": "0.3.2",
-              "dependencies": {
-                "core-js": {
-                  "version": "1.2.6"
-                },
-                "loose-envify": {
-                  "version": "1.1.0",
-                  "dependencies": {
-                    "js-tokens": {
-                      "version": "1.0.2"
-                    }
-                  }
-                },
-                "promise": {
-                  "version": "7.0.4",
-                  "dependencies": {
-                    "asap": {
-                      "version": "2.0.3"
-                    }
-                  }
-                },
-                "ua-parser-js": {
-                  "version": "0.7.9"
-                },
-                "whatwg-fetch": {
-                  "version": "0.9.0"
                 }
               }
             }
@@ -432,7 +348,7 @@
               }
             },
             "ua-parser-js": {
-              "version": "0.7.9"
+              "version": "0.7.10"
             },
             "whatwg-fetch": {
               "version": "0.9.0"
